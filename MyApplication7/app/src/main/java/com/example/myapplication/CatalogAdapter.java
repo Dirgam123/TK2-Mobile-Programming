@@ -15,7 +15,7 @@ public class CatalogAdapter extends RecyclerView.Adapter<CatalogAdapter.ViewHold
     private final List<Integer> images;
 
     public CatalogAdapter(@NonNull List<Integer> images) {
-        this.images = images; // Pastikan `images` tidak null.
+        this.images = images;
     }
 
     @NonNull
@@ -27,14 +27,14 @@ public class CatalogAdapter extends RecyclerView.Adapter<CatalogAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        if (position >= 0 && position < images.size()) { // Hindari IndexOutOfBoundsException
+        if (position >= 0 && position < images.size()) {
             holder.imageView.setImageResource(images.get(position));
         }
     }
 
     @Override
     public int getItemCount() {
-        return images == null ? 0 : images.size(); // Hindari NPE
+        return images == null ? 0 : images.size();
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         List<Integer> imageList = new ArrayList<>();
-        imageList.add(R.drawable.image1); // Ganti dengan gambar Anda
+        imageList.add(R.drawable.image1);
         imageList.add(R.drawable.image2);
         imageList.add(R.drawable.image3);
 
