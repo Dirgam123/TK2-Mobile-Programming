@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="text_margin_top">8dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="card_padding">24dp</dimen>
+    <dimen name="text_size_title">28sp</dimen>
+    <dimen name="margin_top">16dp</dimen>
+    <dimen name="button_margin_top">24dp</dimen>
+    <dimen name="button_margin_bottom">8dp</dimen>
+    <dimen name="recycler_padding">16dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_height">?attr/actionBarSize</dimen>
+</resources>
